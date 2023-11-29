@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c2983c;
+}
+
+
+.game-container{
+    max-width: 60vw;
+    border: solid rgb(137, 106, 84);
+    border-radius: 15px;
+    padding: 20px;
+    /* display: flex; */
+    background-color: #e5c4ab;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(101, 71, 24);
+}
+
+.game-intro{
+    margin: 10px 10px 50px 10px;
+}
+
+
+/* spelområdet, input + knapp */ 
+#game-div{
+    display: flex;
+    align-items: center;
+    /* border: solid; */
+    margin-bottom: 2%;
+}
+
+#user-guess{
+    min-width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+}
+#guess-btn{
+    min-width: 20%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+#guess-btn:hover{
+    background-color: rgba(186, 117, 33, 0.441);
+    transition-duration: 0.2s;
+}
+
+#play-btn{
+    max-width: 20%;
+    /* margin-bottom: 10%; */
+    padding: 3px;
+    max-width: 30%;
+    border: 2px solid rgb(201, 185, 185);
+    border-radius: 8px ;
+    background-color: azure;
+}
+
+#play-btn:hover{
+    background-color: rgba(186, 117, 33, 0.441);
+    transition-duration: 0.4s;
+    color: beige;
+}
+
+#list-div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#list-item{
+    list-style: none;
+}
+
+#message-div{
+    border: solid rgb(137, 106, 84);
+    border-radius: 10px;
+    padding: 10%;
+    background-color: antiquewhite;
+}
+
+#guesses-left{
+    border: solid rgb(137, 106, 84);
+    border-radius: 10px;
+    padding: 5px;
+    background-color:antiquewhite;
+    margin-top: 4px;
+}

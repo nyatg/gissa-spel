@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main>
+        <div class="game-container">
+            
+        
+        <div class="game-intro">
+        <h1>Let's play a game!</h1>
+        <p>I'm gonna think of a number between 1-100 and you have to guess what number I'm thinking of. You have to guess a number between 1 and 100. You have 5 chances to get it right. Good luck </p>
+        <button id="play-btn">New Game</button>
+        </div>
+
+        <div id="game-on"></div>
+
+        <div id="game-div">
+        
+        <input id="user-guess" type="number" placeholder="Type your guess here" min="1" max="100">
+        <button id="guess-btn">Guess</button>
+        </div>
+
+    
+        <div id="list-div">
+        <ul id="guess-list"></ul>
+    
+        <div id="message-div"></div>
+        </div>
+        <div id="guesses-left"></div>
+
+        </div>
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
